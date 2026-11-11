@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+<style>
+	body { font-family: system-ui;}
+
+		.row {display: flex; gap: 1rem;}
+		.row > * { flex: 1;}
+		.row { max-width: 1200px; margin: auto;}
+
+		/* version mobile */
+		@media (max-width: 640px){
+			.row { flex-direction: column;}
+		}
+		
+
+	
+
+	/* version desktop */
+	/* @media (min-width: 640px){
+		.row {display: flex; gap: 1rem;}
+		.row > * { flex: 1;}
+	} */
+
+	/* @media (min-width:666px) {
+		body { background: pink;}
+	}
+	@media (max-width: 500px){
+		body { color: magenta; }
+	} */
+
+</style>
+
+</head>
+<body>
+
+	<div class="row">
+		<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur porro sit soluta excepturi minus voluptatum, quis unde similique maxime cum a animi quaerat deleniti, laborum reiciendis at, adipisci explicabo.</div>
+		<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus facilis dignissimos suscipit corrupti quia laudantium aliquid, voluptatum laborum nobis quis doloremque animi esse nulla modi culpa, aut, dolorem impedit autem.</div>
+	</div>
+
+	
+</body>
+</html>
